@@ -293,7 +293,7 @@ Animator:
   m_GameObject: {fileID: 744888005}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f257ca348ec29954c894375f51a45d09, type: 3}
-  m_Controller: {fileID: 9100000, guid: 0eb11eec0e39f2c43b8f4534f8b85398, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1eb3228a13ca53d4e892c9915b081985, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -501,6 +501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: warrok_w_kurniawan@Chicken Dance
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6c32da4fd3aca7f42a6ff9c207066d95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 6c32da4fd3aca7f42a6ff9c207066d95,
         type: 3}
       propertyPath: m_Controller
@@ -670,6 +675,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Robot Kyle
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 320b1c2af77554f99a1658df4a6d3d5c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5716681864270162303, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
@@ -1266,6 +1276,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ch09_nonPBR@Jump
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 219f205277996164c9264bcf074a9f6a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1238381914527795252, guid: 219f205277996164c9264bcf074a9f6a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1563,7 +1578,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f257ca348ec29954c894375f51a45d09,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.81
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f257ca348ec29954c894375f51a45d09,
         type: 3}
@@ -1706,6 +1721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jammo_LowPoly
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 82a2914d8f86c62488456950c8330e38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a2914d8f86c62488456950c8330e38, type: 3}

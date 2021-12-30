@@ -47,7 +47,7 @@ public class TwoDimensionalAnimationStateController : MonoBehaviour
             _velocityZ += Time.deltaTime * _acceleration;
             if (_velocityZ > currentMaxVelocity)
             {
-                _velocityZ = currentMaxVelocity;
+                _velocityZ -= currentMaxVelocity;
             }
         }
         else
